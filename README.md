@@ -8,3 +8,7 @@ This app show a list of notes, you can:
 - Change the importance
 - Add new notes
 - Filter notes for importance
+
+#### PD
+
+Learning from https://fullstackopen.com/
