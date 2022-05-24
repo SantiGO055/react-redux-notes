@@ -5,6 +5,7 @@ import { toggleImportanceOf } from './reducers/noteReducer'
 import NewNote from './components/NewNote';
 import Notes from './components/Notes';
 import VisibilityFilter from './components/VisibilityFilter';
+import  Chat  from './components/Chat';
 const App = () => {
 
     return (
@@ -12,6 +13,8 @@ const App = () => {
         <NewNote />
         <VisibilityFilter/>
         <Notes/>
+
+        <Chat />
       </div>
     )
   }
