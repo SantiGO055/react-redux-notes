@@ -11,6 +11,7 @@ This app show a list of notes, you can:
 - Adding chat web socket with socket.io
 
 #### To run:
+- npm i
 - npm run build
 - node server/server.js
 
