@@ -6,7 +6,8 @@ import {io} from "socket.io-client";
 // var W3CWebSocket = require('websocket').w3cwebsocket;
 // const ws = new W3CWebSocket("ws://localhost:5000")
 // WebSocket
-const socket = io("ws://localhost:5000")
+let port  = process.env.PORT || 3000;
+const socket = io(`ws://localhost:5000`);
 
 export default () => {
   const [userName, setUserName] = useState("")
@@ -31,7 +32,7 @@ export default () => {
     console.log(message);
     setMessages([...messages, message])
     // console.log("array");
-    // console.log(messages);
+    console.log(messages);
 
   });
 
